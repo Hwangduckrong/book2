@@ -238,8 +238,8 @@ public class BookDao {
 				String title = rs.getString("title");
 				String pubs = rs.getString("pubs");
 				String pubdate = rs.getString("pub_date");
-				int aId = rs.getInt("author_id");
-				BookVo bookvo2 = new BookVo(title, pubs, pubdate, aId);
+			
+				bookVo = new BookVo(title, pubs, pubdate,authorId);
 			}
 
 		} catch (SQLException e) {
