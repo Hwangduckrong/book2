@@ -16,6 +16,6 @@ public class BookApp {
 		
 //작가전체리스트
 		//List<BookVo> BookList = bookDao.selectBookAll();
-		BookVo authorVo = bookDao.selectBook(4);
+		BookVo BookVo = bookDao.selectBook(4);
 	}
 }
